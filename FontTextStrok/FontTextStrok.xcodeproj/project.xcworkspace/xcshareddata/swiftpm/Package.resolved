@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BAFluidView",
+        "repositoryURL": "https://github.com/antiguab/BAFluidView",
+        "state": {
+          "branch": null,
+          "revision": "83843809c510719e1811122f1f12604db227a01a",
+          "version": "0.2.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

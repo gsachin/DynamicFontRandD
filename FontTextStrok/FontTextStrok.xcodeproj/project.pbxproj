@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F26454D269B537600355CB5 /* FontTextStrokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26454C269B537600355CB5 /* FontTextStrokApp.swift */; };
+		4F26454F269B537600355CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26454E269B537600355CB5 /* ContentView.swift */; };
+		4F264551269B537700355CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F264550269B537700355CB5 /* Assets.xcassets */; };
+		4F264554269B537700355CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F264553269B537700355CB5 /* Preview Assets.xcassets */; };
+		4F26455D269B56EF00355CB5 /* SFProTextHeavyOld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F26455C269B56EF00355CB5 /* SFProTextHeavyOld.otf */; };
+		4F51B787269B78E900F124E8 /* TransprentTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B786269B78E900F124E8 /* TransprentTextView.swift */; };
+		4F51B789269B793B00F124E8 /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B788269B793B00F124E8 /* AttributedText.swift */; };
+		4F51B78B269B799500F124E8 /* TextViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B78A269B799500F124E8 /* TextViewStore.swift */; };
+		4F51B78D269B79F200F124E8 /* TextViewWrapper+NSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B78C269B79F200F124E8 /* TextViewWrapper+NSTextView.swift */; };
+		4F51B78F269B7A2400F124E8 /* TextViewWrapper+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B78E269B7A2400F124E8 /* TextViewWrapper+UITextView.swift */; };
+		4F51B791269BA28700F124E8 /* MultilineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B790269BA28700F124E8 /* MultilineTextView.swift */; };
+		4F51B793269BADB200F124E8 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B792269BADB200F124E8 /* ContentView1.swift */; };
+		4FE9BCC6269C21FE00D4247C /* BAFluidView in Frameworks */ = {isa = PBXBuildFile; productRef = 4FE9BCC5269C21FE00D4247C /* BAFluidView */; };
+		4FE9BCC8269C23C200D4247C /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9BCC7269C23C200D4247C /* WaveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F264549269B537600355CB5 /* FontTextStrok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTextStrok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F26454C269B537600355CB5 /* FontTextStrokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextStrokApp.swift; sourceTree = "<group>"; };
+		4F26454E269B537600355CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F264550269B537700355CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F264553269B537700355CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F264555269B537700355CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F26455C269B56EF00355CB5 /* SFProTextHeavyOld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProTextHeavyOld.otf; sourceTree = SOURCE_ROOT; };
+		4F51B786269B78E900F124E8 /* TransprentTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransprentTextView.swift; sourceTree = "<group>"; };
+		4F51B788269B793B00F124E8 /* AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedText.swift; sourceTree = "<group>"; };
+		4F51B78A269B799500F124E8 /* TextViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewStore.swift; sourceTree = "<group>"; };
+		4F51B78C269B79F200F124E8 /* TextViewWrapper+NSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextViewWrapper+NSTextView.swift"; sourceTree = "<group>"; };
+		4F51B78E269B7A2400F124E8 /* TextViewWrapper+UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextViewWrapper+UITextView.swift"; sourceTree = "<group>"; };
+		4F51B790269BA28700F124E8 /* MultilineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextView.swift; sourceTree = "<group>"; };
+		4F51B792269BADB200F124E8 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
+		4FE9BCC7269C23C200D4247C /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F264546269B537600355CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE9BCC6269C21FE00D4247C /* BAFluidView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F264540269B537600355CB5 = {
+			isa = PBXGroup;
+			children = (
+				4FE9BCC7269C23C200D4247C /* WaveView.swift */,
+				4F51B784269B783100F124E8 /* Utitlities */,
+				4F26455B269B56B600355CB5 /* Resources */,
+				4F26454B269B537600355CB5 /* FontTextStrok */,
+				4F26454A269B537600355CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F26454A269B537600355CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F264549269B537600355CB5 /* FontTextStrok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F26454B269B537600355CB5 /* FontTextStrok */ = {
+			isa = PBXGroup;
+			children = (
+				4F26454C269B537600355CB5 /* FontTextStrokApp.swift */,
+				4F26454E269B537600355CB5 /* ContentView.swift */,
+				4F264550269B537700355CB5 /* Assets.xcassets */,
+				4F264555269B537700355CB5 /* Info.plist */,
+				4F264552269B537700355CB5 /* Preview Content */,
+				4F51B792269BADB200F124E8 /* ContentView1.swift */,
+			);
+			path = FontTextStrok;
+			sourceTree = "<group>";
+		};
+		4F264552269B537700355CB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F264553269B537700355CB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F26455B269B56B600355CB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F26455C269B56EF00355CB5 /* SFProTextHeavyOld.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F51B784269B783100F124E8 /* Utitlities */ = {
+			isa = PBXGroup;
+			children = (
+				4F51B785269B785400F124E8 /* CustomAttributedText */,
+				4F51B790269BA28700F124E8 /* MultilineTextView.swift */,
+			);
+			path = Utitlities;
+			sourceTree = "<group>";
+		};
+		4F51B785269B785400F124E8 /* CustomAttributedText */ = {
+			isa = PBXGroup;
+			children = (
+				4F51B786269B78E900F124E8 /* TransprentTextView.swift */,
+				4F51B788269B793B00F124E8 /* AttributedText.swift */,
+				4F51B78A269B799500F124E8 /* TextViewStore.swift */,
+				4F51B78C269B79F200F124E8 /* TextViewWrapper+NSTextView.swift */,
+				4F51B78E269B7A2400F124E8 /* TextViewWrapper+UITextView.swift */,
+			);
+			path = CustomAttributedText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F264548269B537600355CB5 /* FontTextStrok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F264558269B537700355CB5 /* Build configuration list for PBXNativeTarget "FontTextStrok" */;
+			buildPhases = (
+				4F264545269B537600355CB5 /* Sources */,
+				4F264546269B537600355CB5 /* Frameworks */,
+				4F264547269B537600355CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontTextStrok;
+			packageProductDependencies = (
+				4FE9BCC5269C21FE00D4247C /* BAFluidView */,
+			);
+			productName = FontTextStrok;
+			productReference = 4F264549269B537600355CB5 /* FontTextStrok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F264541269B537600355CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4F264548269B537600355CB5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F264544269B537600355CB5 /* Build configuration list for PBXProject "FontTextStrok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F264540269B537600355CB5;
+			packageReferences = (
+				4FE9BCC4269C21FE00D4247C /* XCRemoteSwiftPackageReference "BAFluidView" */,
+			);
+			productRefGroup = 4F26454A269B537600355CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F264548269B537600355CB5 /* FontTextStrok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F264547269B537600355CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F26455D269B56EF00355CB5 /* SFProTextHeavyOld.otf in Resources */,
+				4F264554269B537700355CB5 /* Preview Assets.xcassets in Resources */,
+				4F264551269B537700355CB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F264545269B537600355CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F51B789269B793B00F124E8 /* AttributedText.swift in Sources */,
+				4FE9BCC8269C23C200D4247C /* WaveView.swift in Sources */,
+				4F26454F269B537600355CB5 /* ContentView.swift in Sources */,
+				4F26454D269B537600355CB5 /* FontTextStrokApp.swift in Sources */,
+				4F51B787269B78E900F124E8 /* TransprentTextView.swift in Sources */,
+				4F51B78D269B79F200F124E8 /* TextViewWrapper+NSTextView.swift in Sources */,
+				4F51B791269BA28700F124E8 /* MultilineTextView.swift in Sources */,
+				4F51B793269BADB200F124E8 /* ContentView1.swift in Sources */,
+				4F51B78F269B7A2400F124E8 /* TextViewWrapper+UITextView.swift in Sources */,
+				4F51B78B269B799500F124E8 /* TextViewStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F264556269B537700355CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F264557269B537700355CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F264559269B537700355CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FontTextStrok/Preview Content\"";
+				DEVELOPMENT_TEAM = QU956N6S43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FontTextStrok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mijatechnologies.oauthsample.FontTextStrok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F26455A269B537700355CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FontTextStrok/Preview Content\"";
+				DEVELOPMENT_TEAM = QU956N6S43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FontTextStrok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mijatechnologies.oauthsample.FontTextStrok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F264544269B537600355CB5 /* Build configuration list for PBXProject "FontTextStrok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F264556269B537700355CB5 /* Debug */,
+				4F264557269B537700355CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F264558269B537700355CB5 /* Build configuration list for PBXNativeTarget "FontTextStrok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F264559269B537700355CB5 /* Debug */,
+				4F26455A269B537700355CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FE9BCC4269C21FE00D4247C /* XCRemoteSwiftPackageReference "BAFluidView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/antiguab/BAFluidView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FE9BCC5269C21FE00D4247C /* BAFluidView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FE9BCC4269C21FE00D4247C /* XCRemoteSwiftPackageReference "BAFluidView" */;
+			productName = BAFluidView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F264541269B537600355CB5 /* Project object */;
+}
